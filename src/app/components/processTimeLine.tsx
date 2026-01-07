@@ -43,7 +43,7 @@ const steps = [
 
 export function ProcessTimeline() {
   return (
-    <section className="relative py-24 overflow-hidden bg-gradient-to-b from-neutral-50 via-white to-neutral-50">
+    <section className="relative py-24 overflow-hidden bg-linear-to-b from-neutral-50 via-white to-neutral-50">
       {/* Background decorativo */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" />
@@ -67,13 +67,13 @@ export function ProcessTimeline() {
             viewport={{ once: true }}
             className="inline-block mb-4"
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-blue-50 to-cyan-50 border border-blue-100 text-sm font-medium text-blue-700">
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-blue-50 to-cyan-50 border border-blue-100 text-sm font-medium text-blue-700">
               <Shield className="w-4 h-4" />
               Nossa Metodologia
             </span>
           </motion.div>
 
-          <h2 className="text-4xl md:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900 mb-4">
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-neutral-900 via-neutral-800 to-neutral-900 mb-4">
             Como Trabalhamos
           </h2>
           <p className="mt-4 text-lg md:text-xl text-neutral-600 max-w-2xl mx-auto">
@@ -90,7 +90,7 @@ export function ProcessTimeline() {
             whileInView={{ scaleY: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
-            className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-200 via-cyan-300 to-green-200 origin-top -translate-x-1/2"
+            className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-linear-to-b from-blue-200 via-cyan-300 to-green-200 origin-top -translate-x-1/2"
           />
 
           <div className="space-y-24">
@@ -125,7 +125,7 @@ export function ProcessTimeline() {
                     >
                       {/* Gradient decorativo no hover */}
                       <div
-                        className={`absolute inset-0 bg-gradient-to-br ${step.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
+                        className={`absolute inset-0 bg-linear-to-br ${step.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
                       />
 
                       <div className="relative z-10">
@@ -135,7 +135,7 @@ export function ProcessTimeline() {
                           }`}
                         >
                           <div
-                            className={`flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${step.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}
+                            className={`flex items-center justify-center w-12 h-12 rounded-xl bg-linear-to-br ${step.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}
                           >
                             <Icon className="w-6 h-6" />
                           </div>
@@ -175,7 +175,7 @@ export function ProcessTimeline() {
                   >
                     <div className="relative">
                       <div
-                        className={`w-16 h-16 rounded-full bg-gradient-to-br ${step.gradient} shadow-xl flex items-center justify-center`}
+                        className={`w-16 h-16 rounded-full bg-linear-to-br ${step.gradient} shadow-xl flex items-center justify-center`}
                       >
                         <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center">
                           <Icon className="w-7 h-7 text-neutral-700" />
@@ -183,7 +183,7 @@ export function ProcessTimeline() {
                       </div>
                       {/* Pulse effect */}
                       <div
-                        className={`absolute inset-0 rounded-full bg-gradient-to-br ${step.gradient} opacity-30 animate-ping`}
+                        className={`absolute inset-0 rounded-full bg-linear-to-br ${step.gradient} opacity-30 animate-ping`}
                       />
                     </div>
                   </motion.div>
@@ -210,7 +210,7 @@ export function ProcessTimeline() {
                 {/* Linha vertical */}
                 {index < steps.length - 1 && (
                   <div
-                    className={`absolute left-6 top-16 bottom-0 w-0.5 bg-gradient-to-b ${step.gradient} opacity-30 -translate-x-1/2`}
+                    className={`absolute left-6 top-16 bottom-0 w-0.5 bg-linear-to-b ${step.gradient} opacity-30 -translate-x-1/2`}
                   />
                 )}
 
@@ -223,7 +223,7 @@ export function ProcessTimeline() {
                   className="absolute left-0 top-0"
                 >
                   <div
-                    className={`w-12 h-12 rounded-full bg-gradient-to-br ${step.gradient} shadow-lg flex items-center justify-center`}
+                    className={`w-12 h-12 rounded-full bg-linear-to-br ${step.gradient} shadow-lg flex items-center justify-center`}
                   >
                     <Icon className="w-6 h-6 text-white" />
                   </div>
