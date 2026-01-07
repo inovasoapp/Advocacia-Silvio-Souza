@@ -82,7 +82,7 @@ export function Specializations() {
                           : "linear-gradient(to right, #10b981, #34d399)",
                     }}
                   ></div>
-                  <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border border-zinc-100">
+                  <div className="relative aspect-4/3 rounded-2xl overflow-hidden shadow-2xl border border-zinc-100">
                     <Image
                       src={spec.image}
                       alt={spec.title}
