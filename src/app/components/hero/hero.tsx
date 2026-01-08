@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative w-full h-screen xl:h-[920px] bg-blue-50 bg-[url('/Hero.webp')] bg-cover bg-center">
+    <section className="relative w-full h-screen xl:h-[920px] bg-blue-50 bg-[url('/Hero-mobile.webp')] md:bg-[url('/Hero-tablet.webp')] lg:bg-[url('/Hero.webp')] bg-cover bg-center bg-no-repeat">
       <div className="container-section relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-56 lg:mt-20">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-60 lg:mt-20">
           <div className="flex flex-col justify-center h-full flex-1 ">
             <Image
               src="/logo-blue.svg" // Caminho direto da pasta public
