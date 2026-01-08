@@ -34,7 +34,9 @@ export function Footer() {
           onClick={scrollToTop}
           className="group flex items-center gap-2 text-zinc-500 hover:text-blue-900 transition-colors duration-300"
         >
-          <span className="text-sm font-light">Voltar para o topo</span>
+          <span className="text-sm font-light cursor-pointer">
+            Voltar para o topo
+          </span>
           <div className="p-2 rounded-full border border-zinc-200 group-hover:border-blue-900 group-hover:bg-blue-900 group-hover:text-white transition-all duration-300">
             <ArrowUp className="w-4 h-4" />
           </div>
