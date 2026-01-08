@@ -42,9 +42,12 @@ const specializations = [
 
 export function Specializations() {
   return (
-    <section className="py-24 bg-zinc-50 overflow-hidden" id="especializacoes">
-      <div className="container mx-auto px-4 md:px-6 pb-40">
-        <div className="text-center max-w-3xl mx-auto mb-56 space-y-4">
+    <section
+      className="py-8 lg:py-24 bg-zinc-50 overflow-hidden"
+      id="especializacoes"
+    >
+      <div className="container mx-auto px-4 md:px-6 pb-20 lg:pb-40">
+        <div className="text-center max-w-3xl mx-auto mb-20 lg:mb-56 space-y-4">
           <h2 className="text-3xl md:text-5xl font-bold text-zinc-800 tracking-tight">
             Especializações
           </h2>
@@ -54,7 +57,7 @@ export function Specializations() {
           </p>
         </div>
 
-        <div className="space-y-24 md:space-y-80">
+        <div className=" space-y-40 md:space-y-80">
           {specializations.map((spec, index) => {
             const isEven = index % 2 === 0;
             const Icon = spec.icon;

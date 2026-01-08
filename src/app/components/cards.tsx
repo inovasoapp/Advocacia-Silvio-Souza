@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Cards() {
   return (
-    <section className="lg:-mt-28 pb-28 relative z-20">
+    <section className="lg:-mt-28 pb-8 lg:pb-28 relative z-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-center">
           <div className="shadow-lg flex flex-col md:flex-row justify-center overflow-hidden rounded-2xl bg-background">
