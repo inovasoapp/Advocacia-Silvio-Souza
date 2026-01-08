@@ -10,7 +10,7 @@ export function About() {
 
           <div className="absolute top-0 left-0 z-10 w-full h-full bg-blue-50 rounded-tr-[50px] rounded-bl-[50px] overflow-hidden">
             <Image
-              src="/Silvio-sentado.webp"
+              src="/Silvio-sentado-pedra.webp"
               alt="Silvio Souza"
               width={460}
               height={600}
