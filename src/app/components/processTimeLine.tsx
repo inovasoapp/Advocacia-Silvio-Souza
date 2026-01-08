@@ -77,7 +77,7 @@ export function ProcessTimeline() {
             Como Trabalhamos
           </h2>
           <p className="mt-4 text-lg md:text-xl text-neutral-600 max-w-2xl mx-auto">
-            Um processo transparente e estruturado para garantir os melhores
+            Um processo transparente e estruturado para buscar os melhores
             resultados
           </p>
         </motion.div>
