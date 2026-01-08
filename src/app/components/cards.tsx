@@ -14,10 +14,10 @@ export function Cards() {
                 height={64}
                 className="mt-0 md:mt-8"
               />
-              <h2 className="mt-6 md:mt-8 text-2xl font-bold text-zinc-700 text-center">
+              <h2 className="mt-6 md:mt-8 text-[1.5rem] font-bold text-zinc-700 text-center">
                 Direito Civil
               </h2>
-              <p className="mt-4 text-lg text-zinc-500 text-center">
+              <p className="mt-4 text-lg text-zinc-500 text-center font-light">
                 Atuação estratégica em contratos, família e patrimônio, com foco
                 na proteção dos seus direitos e soluções seguras
               </p>
@@ -30,10 +30,10 @@ export function Cards() {
                 height={64}
                 className="mt-0 md:mt-8"
               />
-              <h2 className="mt-6 md:mt-8 text-2xl font-bold text-zinc-700 text-center">
+              <h2 className="mt-6 md:mt-8 text-[1.5rem] font-bold text-zinc-700 text-center">
                 Direito Trabalhista
               </h2>
-              <p className="mt-4 text-lg text-zinc-500 text-center">
+              <p className="mt-4 text-lg text-zinc-500 text-center font-light">
                 Defesa técnica e responsável em questões trabalhistas, como
                 horas extras, verbas rescisórias, FGTS e demissões
               </p>
@@ -46,10 +46,10 @@ export function Cards() {
                 height={64}
                 className="mt-0 md:mt-8"
               />
-              <h2 className="mt-6 md:mt-8 text-2xl font-bold text-zinc-700 text-center">
+              <h2 className="mt-6 md:mt-8 text-[1.5rem] font-bold text-zinc-700 text-center">
                 Direito Previdenciário
               </h2>
-              <p className="mt-4 text-lg text-zinc-500 text-center">
+              <p className="mt-4 text-lg text-zinc-500 text-center font-light">
                 Assessoria especializada em benefícios do INSS, aposentadorias,
                 pensões e revisões previdenciárias
               </p>

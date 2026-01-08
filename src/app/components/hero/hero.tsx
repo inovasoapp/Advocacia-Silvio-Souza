@@ -16,15 +16,18 @@ export function Hero() {
               priority // Carrega imediatamente para logo
             />
 
-            <h1 className="text-[1.5rem] lg:text-[2rem] font-bold text-zinc-800 mt-2">
-              Orientação jurídica objetiva para que você tome decisões seguras
-              desde o primeiro atendimento.
+            <h1 className="text-[1.5rem] lg:text-[2.5rem] font-bold text-zinc-800 mt-2">
+              {/* Orientação jurídica objetiva para que você tome decisões seguras
+              desde o primeiro atendimento. */}
+              Orientação jurídica que traz confiança para decidir.
             </h1>
 
             <p className="text-lg lg:text-xl mt-2 text-zinc-600">
-              Oferecemos um atendimento jurídico personalizado, com análise
+              {/* Oferecemos um atendimento jurídico personalizado, com análise
               cuidadosa do seu caso, linguagem acessível e estratégias bem
-              definidas para evitar riscos e garantir decisões conscientes.
+              definidas para evitar riscos e garantir decisões conscientes. */}
+              Atendimento próximo e estratégico, com análise detalhada do seu
+              caso e comunicação clara em cada etapa.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-8">

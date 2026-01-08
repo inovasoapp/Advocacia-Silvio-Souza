@@ -59,7 +59,7 @@ export function ProcessTimeline() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-20"
+          className="text-center mb-20 lg:mb-32 "
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -73,7 +73,7 @@ export function ProcessTimeline() {
             </span>
           </motion.div>
 
-          <h2 className="text-4xl md:text-6xl font-bold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-neutral-900 via-neutral-800 to-neutral-900 mb-4">
+          <h2 className="text-4xl md:text-[2rem] font-bold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-neutral-900 via-neutral-800 to-neutral-900 mb-4">
             Como Trabalhamos
           </h2>
           <p className="mt-4 text-lg md:text-xl text-neutral-600 max-w-2xl mx-auto">

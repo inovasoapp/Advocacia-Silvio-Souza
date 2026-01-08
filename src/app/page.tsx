@@ -3,6 +3,10 @@ import { Cards } from "./components/cards";
 import { ProcessTimeline } from "./components/processTimeLine";
 import { About } from "./components/about";
 import { Specializations } from "./components/specializations";
+import { Faq } from "./components/faq";
+import { AddressAndContact } from "./components/anddress-and-contact";
+import { Footer } from "./components/footer";
+import { CTA } from "./components/CTA";
 
 export default function Home() {
   return (
@@ -11,7 +15,11 @@ export default function Home() {
       <Cards />
       <About />
       <Specializations />
+      <CTA />
       <ProcessTimeline />
+      <Faq />
+      <AddressAndContact />
+      <Footer />
     </main>
   );
 }

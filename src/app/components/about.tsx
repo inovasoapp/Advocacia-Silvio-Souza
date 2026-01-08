@@ -21,7 +21,7 @@ export function About() {
 
         <div className="flex flex-col">
           <span className="text-zinc-500 font-light text-sm">Conheça</span>
-          <h2 className="text-4xl font-bold text-zinc-700">
+          <h2 className="text-[2rem] font-bold text-zinc-700">
             Dr. Silvio Antonio de Souza
           </h2>
           <span className="text-zinc-500 font-light text-base">
