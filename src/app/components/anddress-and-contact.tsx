@@ -146,9 +146,9 @@ export function AddressAndContact() {
                       Horário de Atendimento
                     </h3>
                     <p className="text-zinc-600 font-light text-sm leading-relaxed">
-                      Segunda a Sexta: 9h às 18h
+                      Segunda / Terça / Quinta: 8h às 16:30h
                       <br />
-                      Sábado: 9h às 12h
+                      Quarta e Sexta: 8h às 12h
                     </p>
                   </div>
                 </div>

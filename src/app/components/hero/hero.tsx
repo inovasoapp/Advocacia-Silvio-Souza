@@ -24,7 +24,7 @@ export function Hero() {
               caso e comunicação clara em cada etapa.
             </p>
 
-            <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-8">
+            <div className="flex flex-col items-center lg:items-start gap-4 lg:gap-8 mt-8">
               <button className="flex w-full lg:w-auto items-center justify-center gap-2 bg-[#374282] px-12 py-4 text-white rounded-md cursor-pointer hover:brightness-125 transition-all duration-300 ">
                 <Calendar size={32} strokeWidth={1} className="" />
                 Agendar atendimento
@@ -32,10 +32,11 @@ export function Hero() {
 
               <div className="flex w-full lg:w-auto items-center justify-center gap-3">
                 <Clock size={20} strokeWidth={1} className="text-zinc-500" />
-                <span className="text-zinc-500 font-light text-xs md:text-sm">
-                  Atendimento de segunda a sexta,
-                  <br className="hidden lg:block" /> das 8h às 16h
-                </span>
+                <p className="text-zinc-500 font-light text-xs md:text-sm">
+                  Segunda / Terça / Quinta: 8h às 16:30h
+                  <br />
+                  Quarta e Sexta: 8h às 12h
+                </p>
               </div>
             </div>
           </div>
