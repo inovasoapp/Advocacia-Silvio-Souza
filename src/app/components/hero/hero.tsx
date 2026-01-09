@@ -15,7 +15,7 @@ export function Hero() {
               priority
             />
 
-            <h1 className="text-[1.75rem] lg:text-[2.5rem] font-bold text-zinc-800 mt-6">
+            <h1 className="text-[1.75rem] lg:text-[2.5rem] font-bold text-zinc-800 mt-6 leading-9 lg:leading-13">
               Advocacia em Americana com orientação jurídica sólida e confiável.
             </h1>
 
