@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function About() {
   return (
-    <section className="py-8 lg:py-20">
+    <section className="">
       <div className="container-section flex flex-col lg:flex lg:flex-row items-center gap-20">
         <div className="relative flex-none max-w-[460px] w-full h-[600px] px-4 lg:px-0">
           <div className="w-full h-full border-6 border-[#374282] rounded-tr-[50px] -translate-y-5 translate-x-5" />
@@ -20,11 +20,13 @@ export function About() {
         </div>
 
         <div className="flex flex-col">
-          <span className="text-zinc-500 font-light text-sm">Conheça</span>
-          <h2 className="text-[2rem] font-bold text-zinc-700">
+          <span className="text-zinc-400 font-light text-xs md:text-sm">
+            Conheça
+          </span>
+          <h2 className="text-[1.5rem] lg:text-[2rem] font-bold text-zinc-700">
             Dr. Silvio Antonio de Souza
           </h2>
-          <span className="text-zinc-500 font-light text-base">
+          <span className="text-zinc-500 font-light text-sm md:text-base">
             OAB/SP: <strong className="font-bold">261.809 - </strong>{" "}
             <Link
               href="https://cna.oab.org.br"

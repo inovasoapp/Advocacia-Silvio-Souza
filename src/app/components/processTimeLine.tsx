@@ -43,7 +43,7 @@ const steps = [
 
 export function ProcessTimeline() {
   return (
-    <section className="relative py-24 overflow-hidden bg-linear-to-b from-neutral-50 via-white to-neutral-50">
+    <section className="relative pb-24 pt-48 overflow-hidden bg-linear-to-b from-neutral-50 via-white to-neutral-50">
       {/* Background decorativo */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" />
@@ -67,16 +67,16 @@ export function ProcessTimeline() {
             viewport={{ once: true }}
             className="inline-block mb-4"
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-blue-50 to-cyan-50 border border-blue-100 text-sm font-medium text-blue-700">
-              <Shield className="w-4 h-4" />
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-blue-50 to-cyan-50 border border-blue-100 text-sm font-light text-gray-500">
+              <Shield className="w-4 h-4" strokeWidth={1} />
               Nossa Metodologia
             </span>
           </motion.div>
 
-          <h2 className="text-4xl md:text-[2rem] font-bold tracking-tight bg-clip-text text-transparent bg-linear-to-r from-neutral-900 via-neutral-800 to-neutral-900 mb-4">
+          <h2 className="text-3xl md:text-[2rem] font-bold text-zinc-800 tracking-tight leading-tight">
             Como Trabalhamos
           </h2>
-          <p className="mt-4 text-lg md:text-xl text-neutral-600 max-w-2xl mx-auto">
+          <p className="mt-4 text-base lg:text-lg text-neutral-600 max-w-2xl mx-auto">
             Um processo transparente e estruturado para buscar os melhores
             resultados
           </p>
@@ -137,14 +137,14 @@ export function ProcessTimeline() {
                           <div
                             className={`flex items-center justify-center w-12 h-12 rounded-xl bg-linear-to-br ${step.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300`}
                           >
-                            <Icon className="w-6 h-6" />
+                            <Icon className="w-6 h-6" strokeWidth={1} />
                           </div>
                         </div>
 
-                        <h3 className="text-2xl font-bold text-neutral-900 mb-3 group-hover:text-neutral-700 transition-colors">
+                        <h3 className="text-2xl font-semibold text-neutral-700 mb-3 group-hover:text-neutral-600 transition-colors">
                           {step.title}
                         </h3>
-                        <p className="text-neutral-600 leading-relaxed">
+                        <p className="text-sm md:text-base font-light text-zinc-600">
                           {step.description}
                         </p>
                       </div>
@@ -178,7 +178,10 @@ export function ProcessTimeline() {
                         className={`w-16 h-16 rounded-full bg-linear-to-br ${step.gradient} shadow-xl flex items-center justify-center`}
                       >
                         <div className="w-14 h-14 rounded-full bg-white flex items-center justify-center">
-                          <Icon className="w-7 h-7 text-neutral-700" />
+                          <Icon
+                            className="w-7 h-7 text-neutral-500"
+                            strokeWidth={1}
+                          />
                         </div>
                       </div>
                       {/* Pulse effect */}

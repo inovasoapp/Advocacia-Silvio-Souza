@@ -10,14 +10,14 @@ export function Cards() {
               <Image
                 src="/regulation-edit.svg"
                 alt="Scale Edit"
-                width={64}
-                height={64}
+                width={56}
+                height={56}
                 className="mt-0 md:mt-8"
               />
-              <h2 className="mt-6 md:mt-8 text-[1.5rem] font-bold text-zinc-700 text-center">
+              <h2 className="mt-6 md:mt-8 text-[1.25rem] font-bold text-zinc-700 text-center">
                 Direito Civil
               </h2>
-              <p className="mt-4 text-lg text-zinc-500 text-center font-light">
+              <p className="mt-4 text-base text-zinc-500 text-center font-light">
                 Atuação estratégica em contratos, família e patrimônio, com foco
                 na proteção dos seus direitos e soluções seguras
               </p>
@@ -26,14 +26,14 @@ export function Cards() {
               <Image
                 src="/labour-edit.svg"
                 alt="Briefcase Edit"
-                width={64}
-                height={64}
+                width={56}
+                height={56}
                 className="mt-0 md:mt-8"
               />
-              <h2 className="mt-6 md:mt-8 text-[1.5rem] font-bold text-zinc-700 text-center">
+              <h2 className="mt-6 md:mt-8 text-[1.25rem] font-bold text-zinc-700 text-center">
                 Direito Trabalhista
               </h2>
-              <p className="mt-4 text-lg text-zinc-500 text-center font-light">
+              <p className="mt-4 text-base text-zinc-500 text-center font-light">
                 Defesa técnica e responsável em questões trabalhistas, como
                 horas extras, verbas rescisórias, FGTS e demissões
               </p>
@@ -42,14 +42,14 @@ export function Cards() {
               <Image
                 src="/old-people-edit.svg"
                 alt="Old People Edit"
-                width={64}
-                height={64}
+                width={56}
+                height={56}
                 className="mt-0 md:mt-8"
               />
-              <h2 className="mt-6 md:mt-8 text-[1.5rem] font-bold text-zinc-700 text-center">
+              <h2 className="mt-6 md:mt-8 text-[1.25rem] font-bold text-zinc-700 text-center">
                 Direito Previdenciário
               </h2>
-              <p className="mt-4 text-lg text-zinc-500 text-center font-light">
+              <p className="mt-4 text-base text-zinc-500 text-center font-light">
                 Assessoria especializada em benefícios do INSS, aposentadorias,
                 pensões e revisões previdenciárias
               </p>

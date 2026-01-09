@@ -1,5 +1,7 @@
 "use client";
 
+import { MessageCircleQuestionMark } from "lucide-react";
+import { motion } from "motion/react";
 import { useState } from "react";
 
 const faqItems = [
@@ -36,10 +38,22 @@ export function Faq() {
     <section className="relative py-24 overflow-hidden bg-linear-to-b from-neutral-50 via-white to-neutral-50">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            className="inline-block mb-4"
+          >
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-blue-50 to-cyan-50 border border-blue-100 text-sm font-light text-gray-500">
+              <MessageCircleQuestionMark className="w-4 h-4" strokeWidth={1} />
+              Dúvidas
+            </span>
+          </motion.div>
+
           <h2 className="text-3xl md:text-[2rem] font-bold text-zinc-800 tracking-tight leading-tight">
             Perguntas Frequentes
           </h2>
-          <p className="text-lg text-zinc-600 leading-relaxed font-light">
+          <p className="text-base lg:text-lg text-zinc-600 font-light">
             Tire suas dúvidas sobre nossos serviços e atendimento. Se precisar
             de mais ajuda, nossa equipe está pronta para orientar você.
           </p>
@@ -62,8 +76,8 @@ export function Faq() {
                 <span
                   className={`text-lg font-semibold transition-colors duration-300 ${
                     openIndex === index
-                      ? "text-zinc-800"
-                      : "text-zinc-600 group-hover:text-zinc-800"
+                      ? "text-zinc-700"
+                      : "text-zinc-600 group-hover:text-zinc-700"
                   }`}
                 >
                   {item.question}
@@ -96,9 +110,7 @@ export function Faq() {
                 }`}
               >
                 <div className="px-6 pb-6 pt-0">
-                  <p className="text-zinc-600 leading-relaxed font-light">
-                    {item.answer}
-                  </p>
+                  <p className="text-zinc-600 font-light">{item.answer}</p>
                 </div>
               </div>
             </div>

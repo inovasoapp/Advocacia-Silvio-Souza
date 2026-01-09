@@ -8,37 +8,31 @@ export function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-60 lg:mt-20">
           <div className="flex flex-col justify-center h-full flex-1 ">
             <Image
-              src="/logo-blue.svg" // Caminho direto da pasta public
+              src="/logo-blue.svg"
               alt="Logo do Escritório"
               width={200}
               height={44}
-              // className="w-64 h-16 lg:w-72 lg:h-20" // Responsivo com Tailwind
-              priority // Carrega imediatamente para logo
+              priority
             />
 
-            <h1 className="text-[1.5rem] lg:text-[2.5rem] font-bold text-zinc-800 mt-2">
-              {/* Orientação jurídica objetiva para que você tome decisões seguras
-              desde o primeiro atendimento. */}
-              Orientação jurídica que traz confiança para decidir.
+            <h1 className="text-[1.75rem] lg:text-[2.5rem] font-bold text-zinc-800 mt-6">
+              Orientação jurídica que traz confiança para decidir!
             </h1>
 
             <p className="text-lg lg:text-xl mt-2 text-zinc-600">
-              {/* Oferecemos um atendimento jurídico personalizado, com análise
-              cuidadosa do seu caso, linguagem acessível e estratégias bem
-              definidas para evitar riscos e garantir decisões conscientes. */}
               Atendimento próximo e estratégico, com análise detalhada do seu
               caso e comunicação clara em cada etapa.
             </p>
 
             <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 mt-8">
-              <button className="flex w-full lg:w-auto items-center justify-center gap-2 bg-[#374282] px-12 py-3 text-white rounded-md cursor-pointer hover:brightness-125 transition-all duration-300 ">
-                <Calendar size={20} strokeWidth={1} className="" />
+              <button className="flex w-full lg:w-auto items-center justify-center gap-2 bg-[#374282] px-12 py-4 text-white rounded-md cursor-pointer hover:brightness-125 transition-all duration-300 ">
+                <Calendar size={32} strokeWidth={1} className="" />
                 Agendar atendimento
               </button>
 
-              <div className="flex w-full lg:w-auto items-center lg:justify-center gap-3">
-                <Clock size={20} strokeWidth={1} className="" />
-                <span className="text-zinc-600 font-light text-sm">
+              <div className="flex w-full lg:w-auto items-center justify-center gap-3">
+                <Clock size={20} strokeWidth={1} className="text-zinc-500" />
+                <span className="text-zinc-500 font-light text-xs md:text-sm">
                   Atendimento de segunda a sexta,
                   <br className="hidden lg:block" /> das 8h às 16h
                 </span>
