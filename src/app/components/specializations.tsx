@@ -56,7 +56,7 @@ export function Specializations() {
           >
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-blue-50 to-cyan-50 border border-blue-100 text-sm font-light text-gray-500">
               <Workflow className="w-4 h-4" strokeWidth={1} />
-              Nossa Metodologia
+              Nossa Atuação
             </span>
           </motion.div>
 

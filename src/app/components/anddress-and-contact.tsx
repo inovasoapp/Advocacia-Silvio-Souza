@@ -42,8 +42,8 @@ export function AddressAndContact() {
           </h2>
           <p className="text-base lg:text-lg text-zinc-600 leading-relaxed">
             Entre em contato com a <strong>Advocacia Silvio Souza</strong> para
-            agendar uma consulta ou visite nosso escritório de{" "}
-            <strong>advocacia em Americana</strong>.
+            agendar uma consulta ou visite nossa{" "}
+            <strong>Advocacia em Americana</strong>.
           </p>
         </motion.div>
 
