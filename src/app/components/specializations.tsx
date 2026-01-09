@@ -147,7 +147,7 @@ export function Specializations() {
                         />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-zinc-700 mb-1">
+                        <h4 className="text-xl font-semibold text-zinc-700 mb-2">
                           Função do Advogado
                         </h4>
                         <p className="text-sm md:text-base font-light text-zinc-600">
@@ -164,7 +164,7 @@ export function Specializations() {
                         />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-zinc-700 mb-1">
+                        <h4 className="text-xl font-semibold text-zinc-700 mb-2">
                           Quem tem direito
                         </h4>
                         <p className="text-sm md:text-base font-light text-zinc-600">

@@ -74,7 +74,7 @@ export function Faq() {
                 className="flex w-full items-center justify-between p-6 text-left focus:outline-hidden"
               >
                 <span
-                  className={`text-lg font-semibold transition-colors duration-300 ${
+                  className={`text-base font-semibold transition-colors duration-300 ${
                     openIndex === index
                       ? "text-zinc-700"
                       : "text-zinc-600 group-hover:text-zinc-700"
