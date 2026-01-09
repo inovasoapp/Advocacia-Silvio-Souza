@@ -43,7 +43,7 @@ const steps = [
 
 export function ProcessTimeline() {
   return (
-    <section className="relative pb-24 pt-48 overflow-hidden bg-linear-to-b from-neutral-50 via-white to-neutral-50">
+    <section className="relative py-24 overflow-hidden bg-linear-to-b from-neutral-50 via-white to-neutral-50">
       {/* Background decorativo */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-3xl animate-pulse" />
@@ -53,7 +53,7 @@ export function ProcessTimeline() {
         />
       </div>
 
-      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 container-section">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

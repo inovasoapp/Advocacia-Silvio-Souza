@@ -40,9 +40,9 @@ export function About() {
           </span>
           <p className="text-zinc-500 text-base mt-10">
             Formado em Direito pela UNIMEP – Piracicaba,{" "}
-            <strong>atua na área jurídica há mais de 15 anos</strong>. Ao longo
-            de sua trajetória, construiu uma atuação pautada pela ética,
-            responsabilidade e compromisso com a justiça.
+            <strong>atua com advocacia em Americana há mais de 15 anos</strong>.
+            Ao longo de sua trajetória, construiu uma atuação pautada pela
+            ética, responsabilidade e compromisso com a justiça.
           </p>
           <p className="text-zinc-500 text-base mt-4">
             A escolha pelo Direito nasceu do desejo de contribuir para uma{" "}

@@ -33,7 +33,7 @@ export function AddressAndContact() {
           >
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-linear-to-r from-blue-50 to-cyan-50 border border-blue-100 text-sm font-light text-gray-500">
               <MapPin className="w-4 h-4" strokeWidth={1} />
-              Onde nos encontrar
+              Localização em Americana
             </span>
           </motion.div>
 
@@ -41,8 +41,9 @@ export function AddressAndContact() {
             Endereço e Contatos
           </h2>
           <p className="text-base lg:text-lg text-zinc-600 leading-relaxed">
-            Entre em contato conosco para agendar uma consulta ou visite nosso
-            escritório no centro de Americana.
+            Entre em contato com a <strong>Advocacia Silvio Souza</strong> para
+            agendar uma consulta ou visite nosso escritório de{" "}
+            <strong>advocacia em Americana</strong>.
           </p>
         </motion.div>
 
@@ -187,7 +188,7 @@ export function AddressAndContact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-zinc-900 text-sm mb-1">
-                      Escritório Central
+                      Advocacia em Americana
                     </h4>
                     <p className="text-xs text-zinc-600">
                       Rua Dr. Cândido Cruz, 384 - Centro
@@ -205,7 +206,7 @@ export function AddressAndContact() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="absolute inset-0 w-full h-full"
-                title="Mapa de Localização"
+                title="Localização da Advocacia Silvio Souza em Americana"
               />
             </div>
           </motion.div>

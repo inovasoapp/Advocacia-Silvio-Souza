@@ -9,14 +9,14 @@ export function Hero() {
           <div className="flex flex-col justify-center h-full flex-1 ">
             <Image
               src="/logo-blue.svg"
-              alt="Logo do Escritório"
+              alt="Logo Advocacia Silvio Souza"
               width={200}
               height={44}
               priority
             />
 
             <h1 className="text-[1.75rem] lg:text-[2.5rem] font-bold text-zinc-800 mt-6">
-              Orientação jurídica que traz confiança para decidir!
+              Advocacia em Americana com orientação jurídica sólida e confiável.
             </h1>
 
             <p className="text-lg lg:text-xl mt-2 text-zinc-600">

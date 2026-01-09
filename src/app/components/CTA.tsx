@@ -63,7 +63,7 @@ export function CTA() {
 
                 <Image
                   src="/Silvio-segurando-pasta.webp"
-                  alt="Dr. Silvio Souza"
+                  alt="Dr. Silvio Souza - Advocacia em Americana"
                   fill
                   className="object-cover object-top"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -120,16 +120,16 @@ export function CTA() {
 
             {/* Heading */}
             <div className="space-y-6">
-              <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] tracking-tight">
-                Proteja seus{" "}
-                <span className="bg-linear-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                  direitos
-                </span>{" "}
-                com expertise
+              <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold text-white leading-[1.1] tracking-tight">
+                Advocacia em Americana para quem busca segurança jurídica
               </h2>
               <p className="text-lg text-blue-100/80 max-w-xl">
                 Não deixe suas dúvidas jurídicas para depois. Tenha a segurança
-                de uma defesa qualificada e intransigente.
+                de uma defesa qualificada com o{" "}
+                <strong className="text-white font-medium">
+                  Dr. Silvio Souza
+                </strong>
+                .
               </p>
             </div>
 
