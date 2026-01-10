@@ -191,14 +191,14 @@ export function AddressAndContact() {
                       Advocacia em Americana
                     </h4>
                     <p className="text-xs text-zinc-600">
-                      Rua Dr. Cândido Cruz, 384 - Centro
+                      Rua Dr. Cândido Cruz, 392 - Centro
                     </p>
                   </div>
                 </div>
               </div>
 
               <iframe
-                src="https://maps.google.com/maps?q=Rua+Dr.+Candido+cruz,+384,+centro,+Americana+SP&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=Rua+Dr.+Candido+cruz,+392,+centro,+Americana+SP&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

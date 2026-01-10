@@ -135,7 +135,7 @@ export function CTA() {
 
             {/* CTA Buttons */}
             <motion.a
-              href="https://wa.me/551936455954"
+              href="https://wa.me/5519992732038"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.02 }}
