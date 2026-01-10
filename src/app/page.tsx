@@ -1,3 +1,5 @@
+export const dynamic = "force-static";
+
 import { Hero } from "./components/hero/hero";
 import { Cards } from "./components/cards";
 import { ProcessTimeline } from "./components/processTimeLine";
