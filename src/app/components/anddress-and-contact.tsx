@@ -188,7 +188,7 @@ export function AddressAndContact() {
                   </div>
                   <div>
                     <h4 className="font-bold text-zinc-900 text-sm mb-1">
-                      Advocacia em Americana
+                      Advocacia em Americana | Silvio Souza
                     </h4>
                     <p className="text-xs text-zinc-600">
                       Rua Dr. Cândido Cruz, 392 - Centro

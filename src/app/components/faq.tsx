@@ -8,22 +8,22 @@ const faqItems = [
   {
     question: "É cobrado algum valor pela primeira consulta?",
     answer:
-      "A análise inicial do seu caso é realizada de forma gratuita. Acreditamos que você deve ter o direito de entender a viabilidade do seu processo antes de assumir qualquer compromisso financeiro. Agende uma conversa para avaliarmos sua situação.",
+      "A primeira consulta é gratuita quando há a contratação dos serviços jurídicos, permitindo a análise inicial do caso e a orientação adequada. Caso não haja prosseguimento com a contratação, a consulta é realizada mediante o valor de R$ 150,00, referente à análise e esclarecimentos prestados.",
   },
   {
-    question: "Qual a porcentagem cobrada pelos serviços?",
+    question: "Como é cobrado pelos serviços?",
     answer:
-      "Nosso escritório preza pela transparência total. Na maioria das causas trabalhistas e previdenciárias, trabalhamos com honorários de êxito (ad exitum), cobrando um percentual (geralmente 30%) apenas no final do processo e somente se ganharmos a causa.",
+      "Os honorários advocatícios são estabelecidos no formato de êxito, ou seja, o cliente só realiza o pagamento se a causa for vencedora. O percentual é definido de forma clara e transparente na etapa inicial, após a avaliação técnica do caso, garantindo previsibilidade e alinhamento entre as partes desde o início do processo.",
   },
   {
     question: "Qual o horário de atendimento?",
     answer:
-      "Atendemos de segunda a sexta-feira, das 08:00 às 18:00. Para maior comodidade, também oferecemos atendimento online via WhatsApp ou videochamada, permitindo que você tire suas dúvidas sem sair de casa.",
+      "Nosso atendimento ocorre em horário comercial, de segunda, terça e quinta-feira, das 8h às 16h, e às quartas e sextas-feiras, das 8h às 12h. Para melhor organização e qualidade no atendimento, recomenda-se o agendamento prévio.",
   },
   {
     question: "Como posso agendar um atendimento?",
     answer:
-      "O agendamento é simples e rápido. Você pode entrar em contato conosco pelo botão de WhatsApp nesta página, pelo telefone fixo ou preenchendo o formulário de contato. Nossa equipe retornará o mais breve possível.",
+      "O agendamento pode ser realizado de forma simples e rápida pelo WhatsApp: (19) 9 9273-2038 ou pelo telefone fixo (19) 3645-5954. Nossa equipe está disponível para orientar e confirmar o melhor horário para o atendimento.",
   },
 ];
 
