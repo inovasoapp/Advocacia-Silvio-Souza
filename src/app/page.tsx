@@ -20,6 +20,36 @@ export const metadata: Metadata = {
     "Silvio Souza",
     "Advocacia em Americana, Direito Civil, Direito Trabalhista, Direito Previdenciário",
   ],
+  openGraph: {
+    title: "Advocacia | Silvio Souza",
+    description:
+      "Procurando por Advocacia em Americana? Silvio Souza oferece orientação jurídica experiente e estratégica. Agende uma consulta hoje mesmo.",
+    type: "website",
+    locale: "pt_BR",
+    siteName: "Advocacia | Silvio Souza",
+    images: [
+      {
+        url: "https://www.advocaciasilviosouza.com.br/og-image.webp",
+        width: 1200,
+        height: 630,
+        alt: "Advocacia | Silvio Souza",
+      },
+    ],
+  },
+  twitter: {
+    title: "Advocacia | Silvio Souza",
+    description:
+      "Procurando por Advocacia em Americana? Silvio Souza oferece orientação jurídica experiente e estratégica. Agende uma consulta hoje mesmo.",
+    card: "summary_large_image",
+    images: [
+      {
+        url: "https://www.advocaciasilviosouza.com.br/og-x.webp",
+        width: 1200,
+        height: 600,
+        alt: "Advocacia | Silvio Souza",
+      },
+    ],
+  },
   robots: {
     index: true,
     follow: true,
