@@ -181,7 +181,7 @@ export function AddressAndContact() {
             <div className="absolute inset-0 bg-linear-to-br from-blue-500/20 to-purple-500/20 rounded-3xl blur-xl"></div>
             <div className="relative h-full w-full bg-zinc-100 rounded-3xl overflow-hidden shadow-2xl border border-zinc-200/50 group">
               {/* Map overlay with info */}
-              <div className="absolute top-6 left-6 right-6 z-10 bg-white/95 backdrop-blur-sm p-4 rounded-2xl shadow-lg border border-zinc-200/50">
+              <div className="absolute top-32 left-3 right-6 z-10 bg-white/95 backdrop-blur-sm p-4 rounded-2xl shadow-lg border border-zinc-200/50">
                 <div className="flex items-start gap-3">
                   <div className="p-2 bg-[#374282] rounded-lg">
                     <MapPin className="w-5 h-5 text-white" />
