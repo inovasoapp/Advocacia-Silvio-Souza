@@ -35,7 +35,8 @@ export function Cards() {
               </h2>
               <p className="mt-4 text-base text-zinc-500 text-center font-light">
                 Defesa técnica e responsável em questões trabalhistas, como
-                horas extras, verbas rescisórias, FGTS e demissões
+                horas extras, verbas rescisórias, FGTS, acidente de trabalho e
+                demissões
               </p>
             </div>
             <div className="flex flex-col items-center bg-background w-full md:w-80 h-auto md:h-96 px-4 py-8 border border-zinc-200 border-t-0 md:border-t md:border-l-0">
@@ -51,7 +52,7 @@ export function Cards() {
               </h2>
               <p className="mt-4 text-base text-zinc-500 text-center font-light">
                 Assessoria especializada em benefícios do INSS, aposentadorias,
-                pensões e revisões previdenciárias
+                pensões, acidente de trabalho e revisões previdenciárias
               </p>
             </div>
           </div>

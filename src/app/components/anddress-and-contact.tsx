@@ -73,7 +73,7 @@ export function AddressAndContact() {
                       Localização
                     </h3>
                     <p className="text-zinc-600 font-light text-sm leading-relaxed">
-                      Rua Dr. Cândido Cruz, 384
+                      Rua Dr. Cândido Cruz, 392
                       <br />
                       Centro, Americana - SP
                       <br />
@@ -146,7 +146,7 @@ export function AddressAndContact() {
                       Horário de Atendimento
                     </h3>
                     <p className="text-zinc-600 font-light text-sm leading-relaxed">
-                      Segunda / Terça / Quinta: 8h às 16:30h
+                      Segunda / Terça / Quinta: 8h às 16h
                       <br />
                       Quarta e Sexta: 8h às 12h
                     </p>
@@ -157,7 +157,7 @@ export function AddressAndContact() {
 
             {/* WhatsApp CTA */}
             <motion.a
-              href="https://wa.me/551936455954"
+              href="https://wa.me/5519992732038"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.02 }}
