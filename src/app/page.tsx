@@ -15,11 +15,50 @@ export const metadata: Metadata = {
   title: "Advocacia | Silvio Souza",
   description:
     "Procurando por Advocacia em Americana? Silvio Souza oferece orientação jurídica experiente e estratégica. Agende uma consulta hoje mesmo.",
+  keywords: [
+    "Advocacia",
+    "Silvio Souza",
+    "Advocacia em Americana, Direito Civil, Direito Trabalhista, Direito Previdenciário",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
+  alternates: {
+    canonical: "https://www.advocaciasilviosouza.com.br/",
+  },
 };
 
 export default function Home() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: "Advocacia | Silvio Souza",
+    description:
+      "Procurando por Advocacia em Americana? Silvio Souza oferece orientação jurídica experiente e estratégica. Agende uma consulta hoje mesmo.",
+    url: "https://www.advocaciasilviosouza.com.br/",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://www.advocaciasilviosouza.com.br/?s={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <main className="flex flex-col min-h-screen w-full bg-background">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+
       <Hero />
       <Cards />
       <About />
