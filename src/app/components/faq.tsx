@@ -13,17 +13,17 @@ const faqItems = [
   {
     question: "Como é cobrado pelos serviços?",
     answer:
-      "Os honorários advocatícios são estabelecidos no formato de êxito, ou seja, o cliente só realiza o pagamento se a causa for vencedora. O percentual é definido de forma clara e transparente na etapa inicial, após a avaliação técnica do caso, garantindo previsibilidade e alinhamento entre as partes desde o início do processo.",
+      "Os honorários advocatícios são estabelecidos no formato de êxito, ou seja, o cliente só realiza o pagamento se a causa for vencedora. <O percentual é definido de forma clara e transparente na etapa inicial, após a avaliação técnica do caso>, garantindo previsibilidade e alinhamento entre as partes desde o início do processo.",
   },
   {
     question: "Qual o horário de atendimento?",
     answer:
-      "Nosso atendimento ocorre em horário comercial, de segunda, terça e quinta-feira, das 8h às 16h, e às quartas e sextas-feiras, das 8h às 12h. Para melhor organização e qualidade no atendimento, recomenda-se o agendamento prévio.",
+      "Nosso atendimento ocorre em horário comercial, de <segunda, terça e quinta-feira, das 8h às 16h> e às <quartas e sextas-feiras, das 8h às 12h>. Para melhor organização e qualidade no atendimento, recomenda-se o agendamento prévio.",
   },
   {
     question: "Como posso agendar um atendimento?",
     answer:
-      "O agendamento pode ser realizado de forma simples e rápida pelo WhatsApp: (19) 9 9273-2038 ou pelo telefone fixo (19) 3645-5954. Nossa equipe está disponível para orientar e confirmar o melhor horário para o atendimento.",
+      "O agendamento pode ser realizado de forma simples e rápida pelo <WhatsApp: (19) 9 9273-2038> ou pelo <Telefone Fixo: (19) 3645-5954>. Nossa equipe está disponível para orientar e confirmar o melhor horário para o atendimento.",
   },
 ];
 
@@ -110,7 +110,20 @@ export function Faq() {
                 }`}
               >
                 <div className="px-6 pb-6 pt-0">
-                  <p className="text-zinc-600 font-light">{item.answer}</p>
+                  <p className="text-zinc-600 font-light">
+                    {item.answer.split(/(<[^>]+>)/g).map((part, index) =>
+                      part.startsWith("<") && part.endsWith(">") ? (
+                        <strong
+                          key={index}
+                          className="font-semibold text-zinc-500"
+                        >
+                          {part.slice(1, -1)}
+                        </strong>
+                      ) : (
+                        part
+                      )
+                    )}
+                  </p>
                 </div>
               </div>
             </div>
