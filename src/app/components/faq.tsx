@@ -105,7 +105,7 @@ export function Faq() {
               <div
                 className={`transition-all duration-300 ease-in-out ${
                   openIndex === index
-                    ? "max-h-48 opacity-100"
+                    ? "h-full opacity-100"
                     : "max-h-0 opacity-0"
                 }`}
               >
